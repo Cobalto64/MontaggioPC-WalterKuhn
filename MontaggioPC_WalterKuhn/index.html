@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img{
+width: 100%
+}
+ {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #2E8B57;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  height: 300px;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #66CDAA;
+  height: 700px;
+  color: #FFFFFF;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #3CB371;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<p><img src="FrecciaD.png" alt="des" usemap="#workmap" style="width:225px;height:140px;float:right;"></p>
+<map name="workmap">
+  <area shape="rect" coords="0, 0, 225, 140" href="passo 1.html">
+</map>
+<header>
+  <h2>Montare un PC</h2>
+</header>
+
+<section>
+  
+  <article>
+    <h1>Introduzione</h1>
+    <p>Per la costruzione di un PC con buone prestazioni sono necessari dei componenti di buona qualità.</p>
+    <p>A seguire la lista dei componenti necessari e la scelta con il miglior rapporto tra costo e efficienza.</p>
+    <li>cabinet: BLACK MID.TOWER ATX USB3.0 + 2x USB2.0 SENZA ALIM. FAN 1x80 REAR 29 euro</li>
+    <li>alimentatore: CORSAIR 450W VS450 80 PLUS WHITE CERTIFIED PSU (EU) 39 euro</li>
+    <li>scheda madre: MB ASROCK SK.1151 H310C DDR4 2666 32GB 1GBL PCIE X16 2PCIE X1 M.2 SOCKET  57 euro</li>
+    <li>processore: CPU INTEL PENTIUM G5420 3.8GHZ 54W 14NM BOX 2C/4T SOCKET 1151 GMA HD 610 58 euro</li>
+    <li>memoria RAM: 21 euro</li>
+    <li>disco solido: SSD GOODRAM CX400 2.5" SATA 256GB 3D NAND FLASH MEMORY 40 euro</li>
+    <li>tastiera+mouse: KIT TASTIERA+MOUSE UNICO NERO WIRED USB 12 euro</li>
+    <li>sistema operativo: MICROSOFT WINDOWS 10 PRO X64 ITA 1PK OEM COA 95 euro</li>
+    <p>Il monitor non è incluso.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Walter Kuhn</p>
+</footer>
+
+</body>
+</html>
